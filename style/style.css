@@ -1,9 +1,12 @@
+/* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Sezioni */
 
 header {
     background-color: white;
@@ -50,6 +53,7 @@ h2 {
     color: #41454e;
 }
 
+/* header  */
 #toboo-header-logo {
     width: 70px;
     vertical-align: middle;
@@ -63,9 +67,9 @@ h2 {
     display: inline-block;
     line-height: 70px;
     vertical-align: middle;
-
 }
 
+/* Pulsanti */
 .buttons-section {
     margin-bottom: 5px;
 }
@@ -91,6 +95,7 @@ h2 {
 
 }
 
+/* Check e Cross della lista  */
 .list-check {
     display: inline-block;
     width: 1.2rem;
@@ -119,6 +124,7 @@ h2 {
     margin-right: 10px;
 }
 
+/* Tag delle task */
 .list-tag {
     color: white;
     font-size: 0.7rem;
@@ -126,6 +132,7 @@ h2 {
     padding: 6px 10px;
 }
 
+/* Colori Tag delle task */
 .tag-blue {
     background-color: #47adf1;
 }
