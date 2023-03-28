@@ -17,7 +17,6 @@ body {
 }
 
 main {
-    height: 500px;
     margin: 50px 200px;
     background-color: white;
     border-radius: 8px;
@@ -38,7 +37,7 @@ li {
     font-size: 1.3rem;
     line-height: 2rem;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 /* Titoli */
@@ -108,7 +107,16 @@ h2 {
 
 .list-cross {
     display: inline-block;
-    color: #ed7670;;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #ed7670;
+    border: solid 1.5px #ed7670;
+    margin-right: 10px;
 }
 
 .list-tag {
@@ -120,4 +128,24 @@ h2 {
 
 .tag-blue {
     background-color: #47adf1;
+}
+
+.tag-purple {
+    background-color: #9c72e4;
+}
+
+.tag-green {
+    background-color: #64c0a9;
+}
+
+.tag-orange {
+    background-color: #f29e33;
+}
+
+.tag-pink {
+    background-color: #d863a1;
+}
+
+.tag-lime {
+    background-color: #b0c926;
 }
