@@ -126,6 +126,7 @@ h2 {
 
 /* Tag delle task */
 .list-tag {
+    vertical-align: middle;
     color: white;
     font-size: 0.7rem;
     border-radius: 10px;
