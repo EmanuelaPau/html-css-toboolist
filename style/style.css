@@ -96,7 +96,7 @@ h2 {
 }
 
 /* Check e Cross della lista  */
-.list-check {
+.list-tick {
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -105,23 +105,18 @@ h2 {
     vertical-align: middle;
     font-size: 0.8em;
     line-height: 24px;
-    color: #5bbba3;
-    border: solid 1.5px #5bbba3;
     margin-right: 10px;
+    border: solid 1.5px
+}
+
+.list-check {
+    color: #5bbba3;
+    border-color: #5bbba3;
 }
 
 .list-cross {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    border-radius: 12px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 0.8em;
-    line-height: 24px;
     color: #ed7670;
-    border: solid 1.5px #ed7670;
-    margin-right: 10px;
+    border-color: #ed7670;
 }
 
 /* Tag delle task */
