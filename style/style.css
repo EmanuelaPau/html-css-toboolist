@@ -16,10 +16,6 @@ body {
     height: 100%;
 }
 
-h1 {
-    font-size: 3rem;
-}
-
 main {
     height: 500px;
     margin: 50px 200px;
@@ -33,6 +29,27 @@ hr {
     border: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: #41454e;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Titoli */
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: #41454e;
+}
 
 #toboo-header-logo {
     width: 70px;
@@ -73,4 +90,34 @@ hr {
     border: solid 1.5px lightgrey;
     background-color: white;
 
+}
+
+.list-check {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #5bbba3;
+    border: solid 1.5px #5bbba3;
+    margin-right: 10px;
+}
+
+.list-cross {
+    display: inline-block;
+    color: #ed7670;;
+}
+
+.list-tag {
+    color: white;
+    font-size: 0.7rem;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+.tag-blue {
+    background-color: #47adf1;
 }
