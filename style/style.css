@@ -98,13 +98,13 @@ h2 {
 /* Check e Cross della lista  */
 .list-check {
     display: inline-block;
-    width: 1.2rem;
-    height: 1.2rem;
-    border-radius: 0.6rem;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
     text-align: center;
     vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 24px;
     color: #5bbba3;
     border: solid 1.5px #5bbba3;
     margin-right: 10px;
@@ -112,13 +112,13 @@ h2 {
 
 .list-cross {
     display: inline-block;
-    width: 1.2rem;
-    height: 1.2rem;
-    border-radius: 0.6rem;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
     text-align: center;
     vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 24px;
     color: #ed7670;
     border: solid 1.5px #ed7670;
     margin-right: 10px;
