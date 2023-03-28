@@ -40,7 +40,7 @@ hr {
 }
 
 .white-square-paddings {
-    padding: 20px 60px;
+    padding: 20px 60px 5px;
 }
 
 .header-logo {
@@ -51,5 +51,26 @@ hr {
 }
 
 .buttons-section {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.blue-button {
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #47adf1;
+}
+
+.white-button {
+    font-weight: bold;
+    color: lightgrey;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 1.5px lightgrey;
+    background-color: white;
+
 }
